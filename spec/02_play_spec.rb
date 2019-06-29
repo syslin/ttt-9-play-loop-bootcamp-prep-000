@@ -1,5 +1,5 @@
-require_relative '../lib/play'
 
+require_relative '../lib/play'
 describe '#play' do
   it 'calls turn nine times' do
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
